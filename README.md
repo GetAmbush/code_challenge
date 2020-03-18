@@ -4,20 +4,20 @@
 
 This is our programming exercise.
 
-Our goal is to evaluate your programming skills level and learn more about you. You should work on the stories provided here and then we will do a code review and invite you to an interview :)
+Our goal is to evaluate your programming skills level and learn more about you. You should work on the stories provided below and then, we will do a code review and invite you to an interview :)
 
 ## Exercise
 
 ### Introduction
 
 Keeping track of how much money we have is important for everyone.
-Let's say we have two bank accounts and our wallet, it would be good to have a system that kept track of all of them at the same time, monitoring transfers between them and deposits on them.
+Let's imagine we have two bank accounts and a wallet. It would be good to have a system that keeps track of all of them at the same time, monitoring deposits and transfers between them.
 
 ### Use case
 
-You are a person that really wans to keep track of all of your money in the same place, knowing the current balance of your accounts and being able to create transfers between your accounts (to keep track of your real transfers) for similar events.
+You are someone who really wants to keep track of all of your money in the same place, knowing your current balance and being able to create transfers between your accounts.
 
-As an example, we could have three accounts called `Bank A`, `Bank B` and `Wallet`. Let us say that we started the system having `R$100.00` on each of them as follows:
+For example, here we have three accounts called `Bank A`, `Bank B` and `Wallet`. Let's imagine that we started the system with `R$100.00` on each of them, as follows:
 
 | Account |  Balance   |
 | ------- | :--------: |
@@ -25,7 +25,7 @@ As an example, we could have three accounts called `Bank A`, `Bank B` and `Walle
 | Bank B  | R\$ 100.00 |
 | Wallet  | R\$ 100.00 |
 
-If we create a transfer from `Bank A` to `Bank B` of `R$50.00`, we would the final account balances as:
+If we make a transfer from `Bank A` to `Bank B` of `R$50.00`, this would be the final account balances:
 
 | Account |  Balance   |
 | ------- | :--------: |
@@ -53,9 +53,9 @@ And if someone externallly deposits `R$ 200.00` on account `Bank A`, we would ha
 #### Story 1: Manage Accounts
 
 ```
-As an user
+As a user
 I want to set up my accounts with their name and initial balances in the system
-So that I can insert information about my accounts initial status
+So I can insert information about my accounts' initial status
 ```
 
 Requirements:
@@ -65,32 +65,32 @@ Requirements:
 #### Story 2: Transactions
 
 ```
-As an user
-I want to be able to create transfers between accounts and deposits
-So that I can update and see my accounts with their updated balances
+As a user
+I want to be able to make deposits and transfers between accounts
+So that I can update and see my accounts with their current balances
 ```
 
 Requirements:
 
-- A transaction cannot happen for the same account;
+- A transactions must happen between different accounts;
 - Deposits do not need any external information.
 
 #### Story 3: List Accounts
 
 ```
-As an user
-I want to be able to see my accounts information
+As a user
+I want to be able to see my accounts' information
 So that I can see how much money I have on each account
 ```
 
 Requirements:
 
-- Accounts should be shown as a table;
+- Accounts should be shown in a table;
 - Accounts should have the balance information.
 
 ## Instructions
 
-In order to implement the user stories listed above, please, choose one of the following instructions: back-end, or front-end. If you want to make both, we will consider this an extra point and effort, but it is not mandatory.
+In order to implement the user stories listed above, please, choose one of the following instructions: back-end or front-end. If you want to do both, we will consider this an extra point and effort but it is not mandatory.
 
 ### Backend Instructions
 
@@ -120,4 +120,4 @@ Drop us an email :)
 - Take as much time as needed and _communicate as much as necessary_;
 - The challenge is not only to solve the problem but showcase how much you know about good programming practices;
 - You can document your assumptions for this challenge;
-- You should build the backend in Elixir and the frontend in React or Elm. :)
+- You should build the backend in Elixir and the frontend, in React or Elm. :)
