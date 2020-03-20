@@ -17,7 +17,7 @@ Let's imagine we have two bank accounts and a wallet. It would be good to have a
 
 You are someone who really wants to keep track of all of your money in the same place, knowing your current balance and being able to create transfers between your accounts.
 
-For example, here we have three accounts called `Bank A`, `Bank B` and `Wallet`. Let's imagine that we started the system with `R$100.00` on each of them, as follows:
+Let's imagine that you have two bank accounts, `Bank A`, `Bank B` and you also have your `Wallet`. It would be good to be able to add them to the system to track their balances. Let's create these three accounts with `R$100.00` on each of them, as follows:
 
 | Account |  Balance   |
 | ------- | :--------: |
