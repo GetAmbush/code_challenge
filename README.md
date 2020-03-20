@@ -121,3 +121,11 @@ Drop us an email :)
 - The challenge is not only to solve the problem but showcase how much you know about good programming practices;
 - You can document your assumptions for this challenge;
 - You should build the backend in Elixir and the frontend, in React or Elm. :)
+
+## References
+
+- [Elixir School](https://elixirschool.com/pt/)
+- [Phoenix Framework](http://www.phoenixframework.org/)
+- [Credo](https://github.com/rrrene/credo)
+- [Style Guide](https://github.com/christopheradams/elixir_style_guide)
+- [Phoenix Ecto Cheatsheet](https://devhints.io/phoenix-ecto)
