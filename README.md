@@ -98,7 +98,7 @@ In order to implement the user stories listed above, please, choose one of the f
 - You should persist the data received in a Database;
 - You can use Docker for setting up external applications such as a database.
 
-## Frontend Instructions
+### Frontend Instructions
 
 - The design is up to you, we won't be evaluating any kind of designer skills in this task.
 
