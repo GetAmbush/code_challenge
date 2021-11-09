@@ -90,17 +90,17 @@ Requirements:
 
 ## Instructions
 
-In order to implement the user stories listed above, please, choose one of the following instructions: back-end or front-end. If you want to do both, we will consider this an extra point and effort but it is not mandatory.
+You may implement both frontend and backend or only one of them, depending on the role you're interviewing for.
 
 ### Backend Instructions
 
 - Your REST API should be implemented using JSON;
 - You should persist the data received in a Database;
-- You can use Docker for setting up external applications such as a database.
+- You may use Docker for setting up external applications such as a database.
 
 ### Frontend Instructions
 
-- The design is up to you, we won't be evaluating any kind of designer skills in this task.
+- The design is up to you. We won't evaluate the visuals, but a well-built markup (HTML) goes a long way.
 
 ## What will be evaluated
 
@@ -112,7 +112,7 @@ In order to implement the user stories listed above, please, choose one of the f
 
 ## How to share your solutions with us
 
-Drop us an email :)
+Dropping us an email should always work. If you've received other instructions from someone else, that applies too.
 
 ## Important Notes
 
@@ -120,12 +120,4 @@ Drop us an email :)
 - Take as much time as needed and _communicate as much as necessary_;
 - The challenge is not only to solve the problem but showcase how much you know about good programming practices;
 - You can document your assumptions for this challenge;
-- You should build the backend in Elixir and the frontend, in React or Elm. :)
-
-## References
-
-- [Elixir School](https://elixirschool.com/pt/)
-- [Phoenix Framework](http://www.phoenixframework.org/)
-- [Credo](https://github.com/rrrene/credo)
-- [Style Guide](https://github.com/christopheradams/elixir_style_guide)
-- [Phoenix Ecto Cheatsheet](https://devhints.io/phoenix-ecto)
+- Try to stick to the technologies you've discussed previously with us.
